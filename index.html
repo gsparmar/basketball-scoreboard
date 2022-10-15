@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+      
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div id="homeScore" class="display" >0</div>
+                <div class="point-btns">
+                    <button onclick="home1Point()">+1</button>
+                    <button onclick="home2Point()">+2</button>
+                    <button onclick="home3Point()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div id="guestScore" class="display" >0</div>
+                <div class="point-btns">
+                    <button onclick="guest1Point()">+1</button>
+                    <button onclick="guest2Point()">+2</button>
+                    <button onclick="guest3Point()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button class='reset' onclick="reset()" id="r">Reset Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>
